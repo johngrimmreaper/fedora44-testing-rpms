@@ -2,9 +2,9 @@
 
 Public, signed **testing RPM repository for Fedora Linux 44**, containing preview and pre-release packages maintained and published through the Reaper RPM build infrastructure.
 
-# ⚠️ Stable repository required
+# Stable repository
 
-Packages in this testing repository may depend on packages from the corresponding stable repository. Enable the stable repository together with this testing repository when the stable channel is populated.
+Packages in this testing repository may depend on packages from the corresponding stable repository. Enable the stable repository together with this testing repository.
 
 Stable repository:
 
@@ -26,17 +26,16 @@ Repository signing-key fingerprint:
 E4C3 D7CD 3003 57A5 07C2 B237 FF30 3241 B8B8 606D
 ```
 
-Install the signing key and testing repository descriptor. When the Fedora 44 stable channel is populated, enable its descriptor alongside testing, then refresh DNF metadata:
+Install the signing key and both the stable and testing repository descriptors, then refresh DNF metadata:
 
 ```bash
 sudo rpm --import https://johngrimmreaper.github.io/fedora44-testing-rpms/RPM-GPG-KEY
 sudo curl -fsSL https://johngrimmreaper.github.io/fedora44-testing-rpms/repo/reaper-fedora44-testing-fedora-44-testing.repo -o /etc/yum.repos.d/reaper-fedora44-testing-fedora-44-testing.repo
-# When the stable channel is published:
-# sudo curl -fsSL https://johngrimmreaper.github.io/fedora44-rpms/repo/reaper-fedora44-stable-fedora-44-stable.repo -o /etc/yum.repos.d/reaper-fedora44-stable-fedora-44-stable.repo
+sudo curl -fsSL https://johngrimmreaper.github.io/fedora44-rpms/repo/reaper-fedora44-stable-fedora-44-stable.repo -o /etc/yum.repos.d/reaper-fedora44-stable-fedora-44-stable.repo
 sudo dnf makecache --refresh
 ```
 
-The testing repository descriptor enables `gpgcheck=1` for RPM package signatures and `repo_gpgcheck=1` for signed repository metadata. The stable descriptor uses the same signing policy when published.
+The testing repository descriptor enables `gpgcheck=1` for RPM package signatures and `repo_gpgcheck=1` for signed repository metadata. The stable descriptor uses the same signing policy.
 
 ## Repository architecture
 
