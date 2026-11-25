@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "name": "NsCDE",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.4-0.1.20260705gitcbad197.fc44"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Not so Common Desktop Environment",
+      "install_command": "sudo dnf install NsCDE",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/NsCDE/"
+    },
+    {
+      "name": "NsCDE-data",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.4-0.1.20260705gitcbad197.fc44"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Architecture-independent data files for NsCDE",
+      "install_command": "sudo dnf install NsCDE-data",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/NsCDE-data/"
+    },
+    {
+      "name": "NsCDE-doc",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.4-0.1.20260705gitcbad197.fc44"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Documentation for NsCDE",
+      "install_command": "sudo dnf install NsCDE-doc",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/NsCDE-doc/"
+    },
+    {
+      "name": "NsCDE-icon-theme",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.4-0.1.20260705gitcbad197.fc44"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Icon theme for NsCDE",
+      "install_command": "sudo dnf install NsCDE-icon-theme",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/NsCDE-icon-theme/"
+    },
+    {
+      "name": "NsCDE-langpack-hr",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.4-0.1.20260705gitcbad197.fc44"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Croatian translations for NsCDE",
+      "install_command": "sudo dnf install NsCDE-langpack-hr",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/NsCDE-langpack-hr/"
+    },
+    {
+      "name": "zsnes",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.3.9^git20261125143907.28bdfe430-2.fc44"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "ZSNES Super Nintendo emulator",
+      "install_command": "sudo dnf install zsnes",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/zsnes/"
+    },
+    {
+      "name": "zsnes2",
+      "distribution": "Fedora 44",
+      "version_release": [
+        "2.3.9^git20261123222328.b15e35acf-1.fc44"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "ZSNES 2 Super Nintendo emulator",
+      "install_command": "sudo dnf install zsnes2",
+      "page_url": "https://johngrimmreaper.github.io/fedora44-testing-rpms/packages/fedora/44/zsnes2/"
+    }
+  ]
+}

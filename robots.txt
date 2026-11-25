@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /fedora44-testing-rpms/packages/
+Disallow: /fedora44-testing-rpms/testing/fedora/44/x86_64/
+Disallow: /fedora44-testing-rpms/repo/
+
+Sitemap: https://johngrimmreaper.github.io/fedora44-testing-rpms/sitemap.xml

@@ -1,0 +1,42 @@
+{
+  "clock": "unix-nanoseconds",
+  "files": {
+    "Packages/NsCDE-2.4-0.1.20260705gitcbad197.fc44.x86_64.rpm": {
+      "mtime_ns": 1788314184000000000,
+      "sha256": "b474e8f7d6facede765e7a87d53acc18d2e9b7a14c52709832a12d4acf6269ff",
+      "size": 43248
+    },
+    "Packages/NsCDE-data-2.4-0.1.20260705gitcbad197.fc44.noarch.rpm": {
+      "mtime_ns": 1788314184000000000,
+      "sha256": "df2f91b09e0f06694ccf8002260d834f2a3d5c3c7f6538061a34082c588595af",
+      "size": 19267838
+    },
+    "Packages/NsCDE-doc-2.4-0.1.20260705gitcbad197.fc44.noarch.rpm": {
+      "mtime_ns": 1788314184000000000,
+      "sha256": "db7ec4c90bcb57fd45d9793a9dfc38e255d6cf4419ec8e54e2fa647373f7263a",
+      "size": 3749977
+    },
+    "Packages/NsCDE-icon-theme-2.4-0.1.20260705gitcbad197.fc44.noarch.rpm": {
+      "mtime_ns": 1788314184000000000,
+      "sha256": "c82a754ec488f303d5d226514052b52d6d6fa7cd0dd15a30b6efd16b7268af74",
+      "size": 3976286
+    },
+    "Packages/NsCDE-langpack-hr-2.4-0.1.20260705gitcbad197.fc44.noarch.rpm": {
+      "mtime_ns": 1788314184000000000,
+      "sha256": "6d7f22d10cdaf06a547a9705db1fe3cce4f75ff6dfe4065b27a1cd6a4c908399",
+      "size": 53051
+    },
+    "Packages/zsnes-2.3.9^git20261125143907.28bdfe430-2.fc44.x86_64.rpm": {
+      "mtime_ns": 1795625071000000000,
+      "sha256": "b72015e08afa9143645fd5aefd6734bca6b5a5ec3283681e3c7ece268f3611be",
+      "size": 1199784
+    },
+    "Packages/zsnes2-2.3.9^git20261123222328.b15e35acf-1.fc44.x86_64.rpm": {
+      "mtime_ns": 1795477978000000000,
+      "sha256": "682c1c20a5b80b01bfb894bf6faed1e31c2f2919e3409887b9881022616f367f",
+      "size": 1199667
+    }
+  },
+  "schema": 1,
+  "source": "rpm-header-buildtime"
+}
